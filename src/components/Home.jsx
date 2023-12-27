@@ -27,6 +27,14 @@ const Home = () => {
             subtitle: 'Nasi Ayam',
             country: 'Indonesia',
         },
+        {
+            img: '/img/Image-Food-4.png',
+            logoImg: '/img/Logo-Image-Food-4.png',
+            alt:'kopi-dari-pada',
+            title: 'Kopi Dari|Pada',
+            subtitle: 'Minuman',
+            country: 'Indonesia',
+        },
 
     ]
   return (
@@ -56,7 +64,7 @@ const Home = () => {
                     <h1 className=' text-text1 font-bold 2xl:text-[40px] xl:text-[34px] lg:text-[28px] text-[24px]'>Hangry! adalah restoran dengan beragam brand</h1>
                     <h1 className='text-text2 2xl:text-[24px] xl:text-[20px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[16px] '>Kami menyajikan beragam brand untuk menemani setiap waktu santapmu</h1>
                 </div>
-                <div className='flex justify-between gap-10 pt-8 z-0 2xl:flex-nowrap flex-wrap gap-x-0'>
+                <div className='grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 2xl:overflow-hidden xl:overflow-hidden lg:overflow-hidden md:overflow-hidden 2xl:h-[80vh] xl:h-[80vh] lg:h-[80vh] md:h-[80vh] 2xl:gap-y-[600px] xl:gap-y-[600px] lg:gap-y-[600px] md:gap-y-[600px] gap-y-10  gap-x-10 pt-8 z-0 '>
                     {FoodData.map((data,index)=>(
                         <div className='relative' key={index}>
                             <a href=''>
