@@ -120,8 +120,8 @@ const Home = () => {
                         </div>
                         <button className='hover:bg-red-900 bg-text4 text-white px-5 py-3 rounded-[10px] 2xl:w-fit xl:w-fit lg:w-fit md:w-fit'>Pesan Sekarang</button>
                     </section>
-                    <div className='justify-end flex rounded-[16px]'>
-                        <img className='rounded-[16px] w-full h-fit object-contain' src="/img/Image-MakinRame.png" alt="" />
+                    <div className='justify-end flex rounded-[16px] h-fit border-2 border-red-900'>
+                        <img className='rounded-[16px] w-full h-fit object-contain border-2 border-black' src="/img/Image-MakinRame.png" alt="" />
                     </div>
                 </div>
             </section>
