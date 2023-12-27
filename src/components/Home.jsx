@@ -33,13 +33,13 @@ const Home = () => {
     <>
         <div className='min-h-screen'>
             {/* Banner */}
-            <section className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:pl-4 pl-4 2xl:pt-40 xl:pt-32 lg:pt-28 md:pt-24 sm:pt-32 pt-32 bg-primary1 grid grid-cols-2 items-center 2xl:gap-40 xl:gap-36 lg:gap-32 md:gap-28'>
+            <section id='download' className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:pl-4 pl-4 2xl:pt-40 xl:pt-32 lg:pt-28 md:pt-24 sm:pt-32 pt-32 bg-primary1 grid grid-cols-2 items-center 2xl:gap-40 xl:gap-36 lg:gap-32 md:gap-28'>
                 <div className=''>
                     <h2 className='text-text2 font-bold 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[14px]'>Kamu laper atau haus?</h2>
                     <h1 className='text-text1 font-bold 2xl:text-[40px] xl:text-[34px] lg:text-[28px] text-[24px]'>Tenang... ada Hangry! yang siap mengatasi</h1>
                     <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row flex-col 2xl:w-full xl:w-3/4 lg:w-3/4 md:w-3/4 sm:w-1/3 w-2/3 justify-start 2xl:gap-10 xl:gap-8 lg:gap-6 gap-2 pt-10'>
-                        <a href=''><img src="/img/Button-Playstore.png" alt="button-playstore" /></a>
-                        <a href=''><img src="/img/Button-Appstore.png" alt="button-appstore" /></a>
+                        <a href='https://play.google.com/store/apps/details?id=com.modular.ishangry&hl=en&gl=US&pli=1'><img src="/img/Button-Playstore.png" alt="button-playstore" /></a>
+                        <a href='https://apps.apple.com/id/app/hangry/id1498223490'><img src="/img/Button-Appstore.png" alt="button-appstore" /></a>
                     </div>
                 </div>
                 <div className='flex justify-end'>
@@ -51,7 +51,7 @@ const Home = () => {
             </section>
 
             {/* Restoran beragam Brand */}
-            <section className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 pt-20'>
+            <section id="about" className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 pt-32'>
                 <div>
                     <h1 className=' text-text1 font-bold 2xl:text-[40px] xl:text-[34px] lg:text-[28px] text-[24px]'>Hangry! adalah restoran dengan beragam brand</h1>
                     <h1 className='text-text2 2xl:text-[24px] xl:text-[20px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[16px] '>Kami menyajikan beragam brand untuk menemani setiap waktu santapmu</h1>
@@ -79,7 +79,7 @@ const Home = () => {
             </section>
 
             {/* Temukan Hangry! di platform */}
-            <section className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 pt-20 '>
+            <section id='outlet' className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 pt-20 '>
                 <h1 className='text-center text-text3 2xl:text-[20px] xl:text-[18px] lg:text-[16px] md:text-[12px] sm:text-[10px] text-[10px] 2xl:pb-10 xl:pb-10 lg:pb-10 md:pb-10 sm:pb-4 pb-4'>Hangry! dapat kamu temukan di</h1>
                 <div className='flex justify-between items-center 2xl:gap-20 xl:gap-20 lg:gap-20 md:gap-20 sm:gap-1 gap-1'>
                     <img className='2xl:w-[180px] xl:w-[160px] lg:w-[140px] md:w-[100px] sm:w-[70px] w-[70px] h-full' src="/img/GoFood.png" alt="" />
@@ -90,7 +90,7 @@ const Home = () => {
             </section>
 
             {/* Makin Rame, Makin Hemat */}
-            <section className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 2xl:py-40 xl:py-40 lg:py-40 md:py-40 sm:py-10 py-10 '>
+            <section id='promo' className='2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 2xl:py-40 xl:py-40 lg:py-40 md:py-40 sm:py-10 py-10 '>
                 <div className='2xl:grid xl:grid lg:grid md:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 flex flex-col-reverse justify-between pt-6 gap-10'>
                     <section className='flex flex-col 2xl:gap-6 xl:gap-5 lg:gap-4 md:gap-4 gap-4 2xl:text-[24px] xl:text-[20px] lg:text-[16px] md:text-[12px] sm:text-[12px] text-[16px]'>
                         <h1 className='text-text1 2xl:text-[40px] xl:text-[34px] lg:text-[28px] text-[24px] font-bold'>Makin Rame, makin hemat!</h1>

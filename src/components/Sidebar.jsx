@@ -23,11 +23,11 @@ const Sidebar = ({handleToggleBar, barIsOpen}) => {
         <div className={`fixed ${barIsOpen ? 'right-0' : '-right-full'} transition-all duration-500 top-0 flex flex-col items-end h-screen w-[50vw] border-l-2 border-black bg-white px-4 py-6`}>
             <FaBars onClick={()=>handleToggleBar(false)} />
             <div className='flex flex-col justify-start gap-10 pt-10 text-text1 font-bold'>
-                <a href=''>Tentang Kami</a>
-                <a href=''>Semua Outlet</a>
-                <a href=''>Promo</a>
-                <a href=''>Karier</a>
-                <a href='' className='text-text4 exclude-closing'>Download App</a>
+                <a href='#about' className='hover:border-text1 border-transparent border-b-2 w-fit'>Tentang Kami</a>
+                <a href='#outlet' className='hover:border-text1 border-transparent border-b-2 w-fit'>Semua Outlet</a>
+                <a href='#promo' className='hover:border-text1 border-transparent border-b-2 w-fit'>Promo</a>
+                <a href='' className='hover:border-text1 border-transparent border-b-2 w-fit'>Karier</a>
+                <a href='#download' className='text-text4 hover:border-text4 border-transparent border-b-2 w-fit'>Download App</a>
             </div>
         </div>
     </div>
