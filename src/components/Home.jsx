@@ -121,7 +121,7 @@ const Home = () => {
                         <button className='hover:bg-red-900 bg-text4 text-white px-5 py-3 rounded-[10px] 2xl:w-fit xl:w-fit lg:w-fit md:w-fit'>Pesan Sekarang</button>
                     </section>
                     <div className='justify-end flex'>
-                        <img className='rounded-[16px] w-full h-fit' src="/img/Image-MakinRame.png" alt="" />
+                        <img className='rounded-[16px] w-full h-fit object-contain' src="/img/Image-MakinRame.png" alt="" />
                     </div>
                 </div>
             </section>
