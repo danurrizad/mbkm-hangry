@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-        <div className='h-[10vh] fixed z-50 w-screen bg-white bg-opacity-95 flex justify-between 2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 items-center'>
+        <div className='h-[10vh] fixed z-50 w-screen bg-white bg-opacity-95 flex justify-between 2xl:px-40 xl:px-32 lg:px-28 md:px-20 sm:px-4 px-4 py-6 items-center'>
             <a href=''>
                 <img className='2xl:w-3/4 xl:w-2/3 lg:w-1/2 w-1/2' src="/img/logo.png" alt="" />
             </a>
